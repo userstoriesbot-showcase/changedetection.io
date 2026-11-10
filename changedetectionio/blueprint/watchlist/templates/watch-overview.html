@@ -148,7 +148,7 @@ window.watchOverviewI18n = {
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
             <label for="url"><strong>{{ _('Web page URL') }}</strong></label>
             {{ render_nolabel_field(form.url, placeholder="www.website.com/page.html", required=true, class="pure-input-1", span_wrap=false) }}
-            <button type="submit"  id="add-watch-go" class="pure-button pure-button-primary">{{ _('Watch') }}</button>
+            <button type="submit"  id="add-watch-go" class="pure-button pure-button-primary">{{ _('Watch now') }}</button>
         </div>
         {% if llm_configured %}
         <div class="add-watch-option-group" id="quick-watch-llm-intent">
